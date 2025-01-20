@@ -1,0 +1,7 @@
+# wrangler.toml
+name = "my-cloudflare-worker"
+type = "javascript"
+compatibility_date = "2023-01-20"
+
+[build.upload]
+dir = "functions"
