@@ -1,7 +1,22 @@
-.itemsList {
-    display: flex;  /* フレックスボックスを使用 */
-    justify-content: space-around;  /* 要素間のスペースを均等に配置 */
-    list-style: none;  /* デフォルトのリストスタイルを削除 */
+.box{
+    border-left-width: 2px;
+    border-left-color:cadetblue;
+    width:25vw;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.icon{
 
 }
+.textbox{
 
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
+.title{
+}
+
+.exp{
+    margin-top: 15px;
+}
