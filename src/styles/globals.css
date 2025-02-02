@@ -9,8 +9,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --maincolor: #1446DE;
+    --textcolor: #212121;
+    --hovercolor: #08D3D3;
+    --accentcolor: #FF6B00;
+    --main-font: noto-sans-js;
+    --font-size-h1: 48px;
+    --font-size-h2: 32px;
+    --font-size-h3: 24px;
+    --font-size-h4: 16px;
+  
   }
 }
 
@@ -18,4 +26,21 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: var(--main-font);
+  font-size: var(--font-size-h1);
+}
+h2 {
+  font-family: var(--main-font);
+  font-size: var(--font-size-h2);
+}
+h3 {
+  font-family: var(--main-font);
+  font-size: var(--font-size-h3);
+}
+h4 {
+  font-family: var(--main-font);
+  font-size: var(--font-size-h4);
 }
