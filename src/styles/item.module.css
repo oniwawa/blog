@@ -1,0 +1,7 @@
+.itemsList {
+    display: flex;  /* フレックスボックスを使用 */
+    justify-content: space-around;  /* 要素間のスペースを均等に配置 */
+    list-style: none;  /* デフォルトのリストスタイルを削除 */
+
+}
+

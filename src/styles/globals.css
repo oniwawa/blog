@@ -3,29 +3,22 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
     --maincolor: #1446DE;
     --textcolor: #212121;
     --hovercolor: #08D3D3;
     --accentcolor: #FF6B00;
-    --main-font: noto-sans-js;
+    --main-font: 'sans-serif';
     --font-size-h1: 48px;
     --font-size-h2: 32px;
     --font-size-h3: 24px;
     --font-size-h4: 16px;
   
   }
-}
+
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--textcolor);
+  font-family: --main-font;
 }
 
 h1 {
@@ -43,4 +36,23 @@ h3 {
 h4 {
   font-family: var(--main-font);
   font-size: var(--font-size-h4);
+}
+.itemsList {
+  display: flex;  /* フレックスボックスを使用 */
+  justify-content: space-around;  /* 要素間のスペースを均等に配置 */
+  list-style: none;  /* デフォルトのリストスタイルを削除 */
+
+}
+/*リセット*/
+body,h1,h2,h3,h4,.itemsList{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+*,*::before,*::after{
+  box-sizing:border-box;
+}
+a{
+  color: inherit;
+  text-decoration: none;
 }
