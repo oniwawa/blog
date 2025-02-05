@@ -44,10 +44,15 @@ hh4 {
   display: flex;  /* フレックスボックスを使用 */
   justify-content: center;/* 要素間のスペースを均等に配置 */
   list-style: none;  /* デフォルトのリストスタイルを削除 */
-
 }
+
 /*リセット*/
-body,hh1,hh2,hh3,hh4,.itemsList{
+body,
+hh1,
+hh2,
+hh3,
+hh4,
+.itemsList{
   margin: 0;
   padding: 0;
   list-style: none;

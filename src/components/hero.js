@@ -6,8 +6,8 @@ export default function Hero(){
         <div className="itemsList">
             <div className={styles.titleTextbox}>
                 <hh3>生成AI活用基盤構築 ~End-To-End Support~</hh3>
-                <hh1 className={styles.titleBold}>生成AIベースの</hh1>
-                <hh1>Azureインフラ構築</hh1>
+                <hh1 className={styles.titleBold}>生成AIベースの<br/>Azureインフラ構築</hh1>
+                <button className={styles.button}><hh4>お問い合わせ</hh4></button>
             </div>
             <div className={styles.titleImage}>
                 <Image

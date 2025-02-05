@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export default function Home() {
   return (
     <div>
-      <Hero className="pb-24"/>
+      <Hero />
       <ul className="itemsList">
       <li><Item /></li>
       <li><Item /></li>
