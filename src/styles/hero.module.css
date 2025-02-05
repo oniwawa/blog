@@ -1,0 +1,16 @@
+.titleTextbox {
+    display: flex;
+    flex-direction: column; /* 要素を縦に並べる */
+    justify-content: flex-start; /* 要素を上から配置する（変更可能） */
+    padding-right: 96px;
+  }
+
+  .titleBold{
+    font-weight: bold;
+  }
+  .titleImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+

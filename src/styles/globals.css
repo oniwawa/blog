@@ -24,14 +24,17 @@ body {
 hh1 {
   font-family: var(--main-font);
   font-size: var(--font-size-h1);
+  font-weight: bold;
 }
 hh2 {
   font-family: var(--main-font);
   font-size: var(--font-size-h2);
+  font-weight: bold;
 }
 hh3 {
   font-family: var(--main-font);
   font-size: var(--font-size-h3);
+  font-weight: bold;
 }
 hh4 {
   font-family: var(--main-font);
