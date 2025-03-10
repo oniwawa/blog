@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
 export default nextConfig;
 // next.config.js
 module.exports = {
-  disDir: '.next',
+  distDir: '.next',
   eslint: {
     ignoreDuringBuilds: true,
   },
